@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0_Main">
+      <UniqueIdentifier>{0d87d9a2-485b-4e1f-aa02-56b6f6dd1a94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CorePCH.h">
+      <Filter>0_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>0_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>0_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>0_Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CorePCH.cpp">
+      <Filter>0_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>0_Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
